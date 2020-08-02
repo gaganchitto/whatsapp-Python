@@ -1,6 +1,6 @@
 from selenium import webdriver
 
-driver=webdriver.Chrome('D:\\Downloads\\Video\\chromedriver_win32\\chromedriver.exe')
+driver=webdriver.Chrome('chromedriver.exe') # Enter Chrome Driver path
 driver.get("https://web.whatsapp.com/")
 driver.maximize_window()
 
